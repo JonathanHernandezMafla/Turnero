@@ -1,48 +1,59 @@
 package Objects;
 
 public class Person
+{
+
+//	Atributos
+
+	private String id, name, service, state;
+
+	
+//	Constrcutor
+	
+	public Person(Person person)
 	{
-
-		private String id, name, service, state;
-
-		public String getId()
-			{
-				return id;
-			}
-
-		public void setId(String id)
-			{
-				this.id = id;
-			}
-
-		public String getName()
-			{
-				return name;
-			}
-
-		public void setName(String name)
-			{
-				this.name = name;
-			}
-
-		public String getService()
-			{
-				return service;
-			}
-
-		public void setService(String service)
-			{
-				this.service = service;
-			}
-
-		public String getState()
-			{
-				return state;
-			}
-
-		public void setState(String state)
-			{
-				this.state = state;
-			}
-
 	}
+
+//	Encapsulados
+
+	public String getId()
+	{
+		return id;
+	}
+
+	public void setId(String id)
+	{
+		this.id = id;
+	}
+
+	public String getName()
+	{
+		return name;
+	}
+
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+
+	public String getService()
+	{
+		return service;
+	}
+
+	public void setService(String service)
+	{
+		this.service = service;
+	}
+
+	public String getState()
+	{
+		return state;
+	}
+
+	public void setState(String state)
+	{
+		this.state = state;
+	}
+
+}
