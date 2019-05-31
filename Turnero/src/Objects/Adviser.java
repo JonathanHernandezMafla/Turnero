@@ -11,6 +11,13 @@ public class Adviser
 	private Person client;
 	private boolean state;
 	
+//	Constructor
+	
+	public Adviser(Adviser adviser)
+	{
+	}
+	
+	
 //	Encapsulados
 
 	public String getName()
