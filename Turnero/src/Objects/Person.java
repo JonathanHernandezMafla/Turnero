@@ -8,7 +8,7 @@ public class Person
 	private String id, name, service, state;
 
 	
-//	Constrcutor
+//	Constructor
 	
 	public Person(Person person)
 	{
